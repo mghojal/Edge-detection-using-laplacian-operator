@@ -1,5 +1,5 @@
 # Edge-detection-using-laplacian-operator
-This program can deal with png files, grayscale with depth 8bits
+This program can deal with png files, grayscale with depth 8bits. a test image is provided which is 6000*6000 pixels.
 
 you can compile and execute the program by using Makefile
 
