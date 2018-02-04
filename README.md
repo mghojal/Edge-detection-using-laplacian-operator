@@ -6,10 +6,10 @@ below are some details:
 	by:	 		make
 
 > to execute:
-	-Sequential by: 	make seq
-	-OpenMP by: 		make omp
-	-OpenMPI by: 		make openmpi
-	-MPI by: 		make mpi
+-Sequential by: 	make seq
+-OpenMP by: 		make omp
+-OpenMPI by: 		make openmpi
+-MPI by: 		make mpi
 
 > to clean the results:
 	by: 			make clean
