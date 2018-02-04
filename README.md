@@ -10,8 +10,8 @@ below are some details:
 > to execute:
 
 	-Sequential by: 	make seq
-	-OpenMP by: 	make omp
-	-OpenMPI by: 	make openmpi
+	-OpenMP by: 		make omp
+	-OpenMPI by: 		make openmpi
 	-MPI by: 		make mpi
 > to clean the results:
 
