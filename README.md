@@ -7,8 +7,8 @@ below are some details:
 > to execute:
 
 	-Sequential by: 	make seq
-        -OpenMP by: 		make omp
-        -OpenMPI by: 		make openmpi
+        -OpenMP by: 	make omp
+        -OpenMPI by: 	make openmpi
         -MPI by: 		make mpi
 > to clean the results:
 
@@ -17,7 +17,7 @@ below are some details:
 General: 
 	
 	-all programs using libpng
-        -the programs doing 10 iterations for each to check the best results
+	-the programs doing 10 iterations for each to check the best results
 	-in case you need to change iteration number you can go to header.h and change the value of ITERATION_NUMBER to whatever you want
 	-to change input file you need to go to Makefile for sequential, openmp, and mpi to:
 		* the line 7 for sequential version and change the name of the desired input image
@@ -30,10 +30,10 @@ OpenMP:
 OpenMPI:
 	
 	-to change number of nodes by accessing mpi.job and change:	#SBATCH --nodes=<#No of desired nodes>
-        -to change thread number by accessing mpi.job and change:	#SBATCH --cpus-per-task=<desired thread #No>
+	-to change thread number by accessing mpi.job and change:	#SBATCH --cpus-per-task=<desired thread #No>
 mpi:
-	
-        -to change number of nodes open Makefile in the line 9 you can redefine number of nodes
+
+	-to change number of nodes open Makefile in the line 9 you can redefine number of nodes
 
 
 
