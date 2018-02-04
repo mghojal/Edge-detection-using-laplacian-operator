@@ -29,10 +29,10 @@ int main( int argc, char* argv[] )
 
 	//scatter image among cluster, with broadcasting important parameters to be used in the calculations
 	MPI_Scatter(&img1->data, (size*size)/(numtasks), MPI_UNSIGNED, img2->data, (size*size)/(numtasks), MPI_UNSIGNED, 0, MPI_COMM_WORLD);
-	MPI_Bcast(&min, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
-	MPI_Bcast(&max, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
-	MPI_Bcast(&size, 1, MPI_INT, 0, MPI_COMM_WORLD);
-	MPI_Bcast(&numtasks, 1, MPI_INT, 0, MPI_COMM_WORLD);
+	//MPI_Bcast(&min, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+	//MPI_Bcast(&max, 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+	//MPI_Bcast(&size, 1, MPI_INT, 0, MPI_COMM_WORLD);
+	//MPI_Bcast(&numtasks, 1, MPI_INT, 0, MPI_COMM_WORLD);
 
 	MPI_Barrier(MPI_COMM_WORLD);
 
