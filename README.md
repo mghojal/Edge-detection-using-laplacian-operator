@@ -1,4 +1,5 @@
 # Edge-detection-using-laplacian-operator
+This program can deal with png files, grayscale with depth 8bits
 you can compile and execute the program by using Makefile
 below are some details:
 > to compile all versions (sequential, OpenMP, MPI):
