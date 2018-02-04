@@ -1,19 +1,3 @@
-//======================================================================================================//
-// Course	: Scalable Computing									//	
-// Dozent	: Prof. Dr. Peter Luksch								//
-// Tutor	: Meisam Booshehri									//
-// Project Name : Edge detection by applying stencil code on an image					//
-// Group Members: Mohammad Ghojal			216205052					//
-//		  Göksu Kara				216205943					//	 	 
-// Description  : Task-1 Sequential_Version								//
-// WS17-18 Rostock Universität										//
-// Notes: 	1- 	Input image should be gray scale						//
-//		2- 	Below are the steps using gcc compiler						//
-//			$ gcc <fileName.c> -lpng -o <excutionNameFile>					//
-//			$ ./<excutionNameFile> <nameOfTestImage.png>					//
-//		3-	Output image is output_seq.png saved in the same directory			//
-//======================================================================================================//
-
 #include <stdlib.h>
 #include <math.h>
 #include <png.h>
